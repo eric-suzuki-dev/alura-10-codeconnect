@@ -1,8 +1,9 @@
 import "./App.css";
 import BarraDePesquisa from "./components/BarraDePesquisa";
+import Sidebar from "./components/Sidebar";
 import Filtro from "./components/Filtro";
 import Ordenacao from "./components/Ordenacao";
-import Sidebar from "./components/Sidebar";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <BarraDePesquisa />
         <Filtro />
         <Ordenacao />
+        <Card />
       </div>
     </div>
   );
